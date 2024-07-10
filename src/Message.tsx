@@ -1,4 +1,5 @@
 export default function Message() {
   // JSX:
-  return <h1>Hello World</h1>
+  const name = 'Gregor'
+  return <h1>Hello {name}</h1>
 }
